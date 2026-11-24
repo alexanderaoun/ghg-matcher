@@ -1,0 +1,19 @@
+code,name,description,kg_co2e_per_chf
+IT-HW,Computers and electronic equipment,"Manufacture of computers, laptops, servers, monitors, peripherals, network and storage hardware",0.42
+IT-SW,Software and IT services,"Software licences, cloud computing, hosting, subscriptions and IT consulting services",0.08
+LAB-CHEM,Laboratory chemicals,"Basic and fine chemicals, solvents, reagents, acids, salts and analytical standards for laboratories",0.61
+LAB-BIO,Biological reagents and consumables,"Antibodies, enzymes, cell culture media, sera, kits and other life science reagents",0.35
+LAB-PLAST,Plastic laboratory consumables,"Disposable plastic labware such as pipette tips, tubes, flasks, plates and gloves",0.55
+LAB-EQ,Scientific instruments and lab equipment,"Measuring, analytical and optical instruments, microscopes, centrifuges, oscilloscopes and lab devices",0.3
+GAS,Industrial and laboratory gases,"Compressed and liquefied gases such as nitrogen, helium, argon, carbon dioxide and gas cylinders",0.95
+ELEC-COMP,Electronic components,"Integrated circuits, sensors, resistors, capacitors, connectors, printed circuit boards and cables",0.48
+MECH,Metal products and mechanical parts,"Fabricated metal products, screws, profiles, bearings, tools and machined mechanical components",0.7
+FURN,Furniture,"Office and laboratory furniture such as desks, chairs, shelves, cabinets and benches",0.38
+PAPER,Paper and office supplies,"Paper, printing, stationery, toner, envelopes and general office consumables",0.52
+AIR,Air travel,"Passenger air transport, flight tickets and airline fees",1.1
+RAIL,Rail and public transport,"Train tickets, rail passes and public transport travel",0.04
+HOTEL,Accommodation,"Hotel stays, overnight accommodation and lodging during business travel",0.2
+FOOD,Catering and food,"Catering services, meals, coffee, beverages and food for events and meetings",0.75
+ENERGY,Electricity and heating,"Purchased electricity, district heating, natural gas and fuel for buildings",0.25
+CONSTR,Construction and building maintenance,"Building works, renovation, installation, repair and maintenance of facilities",0.33
+SERV,Professional services,"Consulting, legal, translation, training courses, conference fees and other professional services",0.1
