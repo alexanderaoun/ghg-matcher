@@ -79,30 +79,3 @@ ghgmatch benchmark --embeddings
 ```
 
 The embedding results are not in the table above yet because the model was not available in the environment where the benchmark was run.
-
-## Data
-
-**All data in this repo is synthetic.** `ghgmatch.synth` generates procurement lines for 18 spend categories typical of a technical university, with realistic noise: German/English mixing, typos, abbreviations, SKUs, quantities, upper-case exports and generalist vendors. Spend follows a log-normal distribution per category.
-
-The emission factors in `catalog.py` are **illustrative placeholders** chosen to be in a plausible range. They are not taken from any database and should not be used for reporting. For real use, the catalog would be replaced by an actual spend-based database (e.g. EXIOBASE, US EEIO or a supplier-specific source) and the training data by a previous year's mapped procurement export.
-
-## Repository layout
-
-```
-src/ghgmatch/
-  catalog.py     emission categories and factors
-  synth.py       synthetic procurement generator
-  text.py        normalisation (umlauts, SKUs, quantities)
-  matchers.py    all matching methods behind one interface
-  evaluate.py    metrics, benchmark, learning curve
-  cli.py         generate / benchmark / predict
-tests/           unit tests
-results/         benchmark tables and figure
-```
-
-## Next steps
-
-- Run the multilingual embedding matcher and add it to the hybrid
-- Use an LLM as a fallback only for low-confidence lines and compare cost vs. accuracy
-- Replace the synthetic catalog with a real spend-based factor database
-- Track drift year over year: which categories lose accuracy when the product mix changes
